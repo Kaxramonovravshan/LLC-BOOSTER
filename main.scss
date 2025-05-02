@@ -19,10 +19,9 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  
 }
 
-select{
+select {
   padding: 10px;
 }
 
@@ -38,11 +37,9 @@ select{
   .nav-con-media {
     width: 100%;
     min-height: 65vh;
-
     padding: 10px;
     // background: rgb(223, 242, 244);
-    background: linear-gradient(to bottom right, #ffffff, rgb(223, 242, 244));
-
+    background: linear-gradient(to bottom right, #ffffff, rgb(189, 240, 245));
     @include fontInter(600);
     font-size: 16px;
     color: rgba(7, 34, 96, 1);
@@ -61,6 +58,9 @@ select{
       align-items: center;
       border-radius: 10px;
       margin-bottom: 15px;
+      p {
+        margin: 0;
+      }
     }
 
     .dropdown-container {
@@ -73,18 +73,26 @@ select{
       font-weight: bold;
       cursor: pointer;
       font-size: 16px;
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      height: 100%;
+      color: rgba(7, 34, 96, 1);
     }
 
     .dropdown-menu {
       display: none;
       list-style: none;
       margin-top: 10px;
+      padding-left: 15px;
     }
 
     .dropdown-menu li {
       padding: 6px 0;
       color: rgba(147, 147, 147, 1);
       cursor: pointer;
+      @include fontInter(400);
+      font-size: 16px;
     }
 
     .dropdown-menu li:hover {
@@ -125,6 +133,10 @@ select{
       font-size: 14px;
       border: none;
       border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
     }
   }
 }
@@ -132,7 +144,7 @@ select{
 .sec-1 {
   width: 100%;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 
   .sec1-con {
     max-width: 1210px;
@@ -157,11 +169,12 @@ select{
       border-radius: 14px;
       background-color: white;
       margin-bottom: 47px;
+      background: linear-gradient(to bottom right, #ffffff, rgb(229, 247, 249));
 
       .logo-menu {
         display: flex;
         align-items: center;
-        gap: 200px;
+        gap: 130px;
 
         ul {
           list-style: none;
@@ -171,7 +184,6 @@ select{
           .dropdown {
             position: relative;
             display: inline-block;
-            font-family: sans-serif;
             z-index: 999;
           }
 
@@ -180,7 +192,12 @@ select{
             border: none;
             font-weight: bold;
             cursor: pointer;
-            font-size: 16px;
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            height: 100%;
+            @include fontInter(600);
+            font-size: 14px;
           }
 
           .dropdown-menu {
@@ -188,22 +205,24 @@ select{
             position: absolute;
             top: 28px;
             left: 0;
-            background: linear-gradient(to bottom right, #eef5fd, #f8fbff);
+            background: rgba(255, 255, 255, 1);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 12px;
-            border-radius: 8px;
+            padding: 18px 14px;
+            border-radius: 14px;
             list-style: none;
-            min-width: 200px;
+            width: 210px;
           }
 
           .dropdown-menu li {
+            @include fontInter(400);
+            font-size: 14px;
             color: rgba(147, 147, 147, 1);
             margin-bottom: 10px;
             cursor: pointer;
           }
 
           .dropdown-menu li:hover {
-            color: #000;
+            color: rgba(7, 34, 96, 1);
           }
 
           /* Show dropdown on hover */
@@ -217,10 +236,19 @@ select{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 30px;
+        gap: 15px;
 
-        p {
+        .lan {
+          @include fontInter(400);
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+
+        .num {
           @include fontInter(600);
+          font-size: 14px;
         }
 
         .btn-gr {
@@ -242,12 +270,12 @@ select{
         .btn-2 {
           display: flex;
           align-items: center;
-          gap: 5px;
+          justify-content: center;
           width: 206px;
           height: 40px;
           border-radius: 9px;
           border: 1px solid rgba(42, 171, 238, 1);
-          gap: 10px;
+          gap: 8px;
           padding: 10px;
           color: rgba(255, 255, 255, 1);
           background: linear-gradient(180deg, #2aabee 0%, #229ed9 10000%);
@@ -308,6 +336,7 @@ select{
         background-color: white;
         box-shadow: 10xp 10px 20px rgba(105, 205, 251, 1);
         div {
+          background: linear-gradient(180deg, #fdfdff 0%, #e7f2fb 100%);
           border: 1px solid rgba(227, 232, 246, 1);
           height: 100%;
           border-radius: 16px;
@@ -396,7 +425,7 @@ select{
           }
 
           img {
-            width: 70%;
+            width: 90%;
           }
         }
 
@@ -583,6 +612,7 @@ select{
           @include fontInter(600);
           color: rgba(255, 255, 255, 1);
           border: none;
+          margin-top: 13px;
         }
       }
     }
@@ -654,7 +684,6 @@ select{
         }
       }
     }
-
     .box-3 {
       min-height: 710px;
       background-color: #fff;
@@ -739,6 +768,7 @@ select{
       .box-2,
       .box-3 {
         width: 100%;
+        min-height: 600px;
       }
     }
   }
@@ -747,7 +777,7 @@ select{
 .sec-3 {
   width: 100%;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 
   .sec3-con {
     max-width: 1210px;
@@ -805,6 +835,7 @@ select{
         rgba(54, 209, 220, 0.15) 0%,
         rgba(91, 134, 229, 0.15) 100%
       );
+
       @include fontInter(700);
       font-size: 16px;
     }
@@ -867,7 +898,7 @@ select{
 
     .sec4-con {
       flex-direction: column;
-
+      gap: 5px;
       .box-1,
       .box-2,
       .box-3 {
@@ -919,8 +950,8 @@ select{
     z-index: 1;
     background: radial-gradient(
       circle at center,
-      rgba(153, 185, 240, 0.55) 0%,
-      rgba(231, 239, 253, 0.11) 60%
+      rgba(212, 225, 248, 0.55) 0%,
+      rgba(231, 239, 253, 0.11) 50%
     );
     backdrop-filter: blur(200px);
     -webkit-backdrop-filter: blur(200px);
@@ -931,7 +962,6 @@ select{
     padding: 20px;
 
     .box-1 {
-      margin-top: 40px;
       width: 38%;
       padding: 20px;
       border-radius: 22px;
@@ -1032,10 +1062,12 @@ select{
 
   @media (max-width: 500px) {
     margin-bottom: 40px;
+    h1 {
+      font-size: 28px;
+    }
     .sec6-con {
       display: flex;
       flex-direction: column;
-
       position: static;
 
       .box-1,
@@ -1047,6 +1079,8 @@ select{
         position: static;
         width: 100%;
         margin-bottom: 10px;
+        box-shadow: 0px 3.17px 12.31px 0px rgba(0, 76, 255, 0.11);
+        box-shadow: 0px 29.3px 46.92px 0px rgba(66, 68, 106, 0.08);
       }
     }
   }

@@ -23,7 +23,7 @@ select {
   width: 100%;
   min-height: 65vh;
   padding: 10px;
-  background: linear-gradient(to bottom right, #ffffff, rgb(223, 242, 244));
+  background: linear-gradient(to bottom right, #ffffff, rgb(189, 240, 245));
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -45,6 +45,9 @@ select {
   border-radius: 10px;
   margin-bottom: 15px;
 }
+.nav-media .nav-con-media .contact p {
+  margin: 0;
+}
 .nav-media .nav-con-media .dropdown-container {
   margin-bottom: 12px;
 }
@@ -54,16 +57,27 @@ select {
   font-weight: bold;
   cursor: pointer;
   font-size: 16px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  height: 100%;
+  color: rgb(7, 34, 96);
 }
 .nav-media .nav-con-media .dropdown-menu {
   display: none;
   list-style: none;
   margin-top: 10px;
+  padding-left: 15px;
 }
 .nav-media .nav-con-media .dropdown-menu li {
   padding: 6px 0;
   color: rgb(147, 147, 147);
   cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 .nav-media .nav-con-media .dropdown-menu li:hover {
   color: #000;
@@ -106,12 +120,16 @@ select {
   font-size: 14px;
   border: none;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
 }
 
 .sec-1 {
   width: 100%;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .sec-1 .sec1-con {
   max-width: 1210px;
@@ -132,11 +150,12 @@ select {
   border-radius: 14px;
   background-color: white;
   margin-bottom: 47px;
+  background: linear-gradient(to bottom right, #ffffff, rgb(229, 247, 249));
 }
 .sec-1 .sec1-con .nav-con .logo-menu {
   display: flex;
   align-items: center;
-  gap: 200px;
+  gap: 130px;
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul {
   list-style: none;
@@ -151,7 +170,6 @@ select {
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown {
   position: relative;
   display: inline-block;
-  font-family: sans-serif;
   z-index: 999;
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown-toggle {
@@ -159,27 +177,40 @@ select {
   border: none;
   font-weight: bold;
   cursor: pointer;
-  font-size: 16px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown-menu {
   display: none;
   position: absolute;
   top: 28px;
   left: 0;
-  background: linear-gradient(to bottom right, #eef5fd, #f8fbff);
+  background: rgb(255, 255, 255);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 12px;
-  border-radius: 8px;
+  padding: 18px 14px;
+  border-radius: 14px;
   list-style: none;
-  min-width: 200px;
+  width: 210px;
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown-menu li {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
   color: rgb(147, 147, 147);
   margin-bottom: 10px;
   cursor: pointer;
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown-menu li:hover {
-  color: #000;
+  color: rgb(7, 34, 96);
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown:hover .dropdown-menu {
   display: block;
@@ -188,13 +219,24 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
-.sec-1 .sec1-con .nav-con .btn-menu p {
+.sec-1 .sec1-con .nav-con .btn-menu .lan {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.sec-1 .sec1-con .nav-con .btn-menu .num {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  font-size: 14px;
 }
 .sec-1 .sec1-con .nav-con .btn-menu .btn-gr {
   display: flex;
@@ -217,12 +259,12 @@ select {
 .sec-1 .sec1-con .nav-con .btn-menu .btn-2 {
   display: flex;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
   width: 206px;
   height: 40px;
   border-radius: 9px;
   border: 1px solid rgb(42, 171, 238);
-  gap: 10px;
+  gap: 8px;
   padding: 10px;
   color: rgb(255, 255, 255);
   background: linear-gradient(180deg, #2aabee 0%, #229ed9 10000%);
@@ -283,6 +325,7 @@ select {
   box-shadow: 10xp 10px 20px rgb(105, 205, 251);
 }
 .sec-1 .sec1-con .sec1-card .select-box div {
+  background: linear-gradient(180deg, #fdfdff 0%, #e7f2fb 100%);
   border: 1px solid rgb(227, 232, 246);
   height: 100%;
   border-radius: 16px;
@@ -374,7 +417,7 @@ select {
     display: none;
   }
   .sec-1 .sec1-con .nav-con .logo-menu img {
-    width: 70%;
+    width: 90%;
   }
   .sec-1 .sec1-con .nav-con .btn-menu .btn-gr,
   .sec-1 .sec1-con .nav-con .btn-menu div {
@@ -563,6 +606,7 @@ select {
   font-style: normal;
   color: rgb(255, 255, 255);
   border: none;
+  margin-top: 13px;
 }
 .sec-2 .sec2-con .box-2 {
   min-height: 710px;
@@ -746,13 +790,14 @@ select {
   .sec-2 .sec2-con .box-2,
   .sec-2 .sec2-con .box-3 {
     width: 100%;
+    min-height: 600px;
   }
 }
 
 .sec-3 {
   width: 100%;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .sec-3 .sec3-con {
   max-width: 1210px;
@@ -864,6 +909,7 @@ select {
   }
   .sec-4 .sec4-con {
     flex-direction: column;
+    gap: 5px;
   }
   .sec-4 .sec4-con .box-1,
   .sec-4 .sec4-con .box-2,
@@ -916,7 +962,7 @@ select {
   height: 100%;
   margin: 0 auto;
   z-index: 1;
-  background: radial-gradient(circle at center, rgba(153, 185, 240, 0.55) 0%, rgba(231, 239, 253, 0.11) 60%);
+  background: radial-gradient(circle at center, rgba(212, 225, 248, 0.55) 0%, rgba(231, 239, 253, 0.11) 50%);
   backdrop-filter: blur(200px);
   -webkit-backdrop-filter: blur(200px);
   display: flex;
@@ -926,7 +972,6 @@ select {
   padding: 20px;
 }
 .sec-6 .sec6-con .box-1 {
-  margin-top: 40px;
   width: 38%;
   padding: 20px;
   border-radius: 22px;
@@ -1041,6 +1086,9 @@ select {
   .sec-6 {
     margin-bottom: 40px;
   }
+  .sec-6 h1 {
+    font-size: 28px;
+  }
   .sec-6 .sec6-con {
     display: flex;
     flex-direction: column;
@@ -1055,6 +1103,8 @@ select {
     position: static;
     width: 100%;
     margin-bottom: 10px;
+    box-shadow: 0px 3.17px 12.31px 0px rgba(0, 76, 255, 0.11);
+    box-shadow: 0px 29.3px 46.92px 0px rgba(66, 68, 106, 0.08);
   }
 }
 

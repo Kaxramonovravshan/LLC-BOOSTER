@@ -2,7 +2,7 @@ function openNav() {
   document.querySelector(".nav-media").style.top = "0px";
 }
 function closeNav() {
-  document.querySelector(".nav-media").style.top = "-100%";
+  document.querySelector(".nav-media").style.top = "-150%";
 }
 
 function toggleDropdown() {

@@ -9,6 +9,51 @@
   </head>
   <body>
     <!-- section-1 -->
+    <!-- navbar-media -->
+    <div class="nav-media">
+      <div class="nav-con-media">
+        <div class="top">
+          <img src="./img/лого.svg" alt="" />
+          <img
+            onclick="closeNav()"
+            src="./img/material-symbols_close.svg"
+            alt=""
+          />
+        </div>
+        <div class="hr"></div>
+
+        <p>About us</p>
+        <div class="dropdown-container">
+          <button class="dropdown-toggle" onclick="toggleDropdown()">
+            Services ▾
+          </button>
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <li>Apply for EIN</li>
+            <li>Annual Report</li>
+            <li>BOI Report</li>
+            <li>Register Agent Service</li>
+            <li>Virtual Mailbox Service</li>
+            <li>Business Address</li>
+          </ul>
+        </div>
+
+        <div class="content-below">
+          <p>FAQ</p>
+        </div>
+
+        <div class="contact">
+          <p>+1 973 262 3333</p>
+          <img src="./img/Frame 1249186732.svg" alt="" />
+        </div>
+
+        <button class="btn-1">Log in</button>
+        <button class="btn-2">
+          <img src="./img/file-icons_telegram2.svg" alt="" /> Get started in
+          Telegram
+        </button>
+      </div>
+    </div>
+    <!-- navbar-media -->
 
     <div class="sec-1">
       <div class="sec1-con">
@@ -18,12 +63,23 @@
             <img src="./img/лого.svg" alt="" />
             <ul>
               <li>About us</li>
-              <li>Services</li>
+              <div class="dropdown">
+                <button class="dropdown-toggle">Services ▴</button>
+                <ul class="dropdown-menu">
+                  <li>Apply for EIN</li>
+                  <li>Annual Report</li>
+                  <li>BOI Report</li>
+                  <li>Register Agent Service</li>
+                  <li>Virtual Mailbox Service</li>
+                  <li>Business Address</li>
+                </ul>
+              </div>
               <li>FAQ</li>
             </ul>
           </div>
           <div class="btn-menu">
-            <p>+1 973 262 3333</p>
+            <p class="num">+1 973 262 3333</p>
+            <p>EN ▴</p>
             <div>
               <img src="./img/Frame 1249186727.svg" alt="" />
               <img src="./img/file-icons_telegram.svg" alt="" />
@@ -36,7 +92,12 @@
               </button>
             </div>
           </div>
-          <img class="burger" src="./img/charm_menu-hamburger.svg" alt="" />
+          <img
+            onclick="openNav()"
+            class="burger"
+            src="./img/charm_menu-hamburger.svg"
+            alt=""
+          />
         </div>
         <!-- navbar -->
 
@@ -412,7 +473,13 @@
           <li>We are here to help</li>
         </ul>
       </div>
+      <div class="hr"></div>
+
+      <p class="end-text">© 2025 LLC Booster</p>
+      
     </div>
     <!-- footer -->
+
+    <script src="./index.js"></script>
   </body>
 </html>

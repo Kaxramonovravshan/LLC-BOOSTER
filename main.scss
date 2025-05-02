@@ -21,6 +21,109 @@
   outline: none;
 }
 
+.nav-media {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: -100%;
+  background-color: #00000055;
+  z-index: 999;
+  transition: 500ms;
+
+  .nav-con-media {
+    width: 100%;
+    min-height: 65vh;
+
+    padding: 10px;
+    // background: rgb(223, 242, 244);
+    background: linear-gradient(to bottom right, #ffffff, rgb(223, 242, 244));
+
+    @include fontInter(600);
+    font-size: 16px;
+    color: rgba(7, 34, 96, 1);
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    .contact {
+      width: 100%;
+      height: 111px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .dropdown-container {
+      margin-bottom: 12px;
+    }
+
+    .dropdown-toggle {
+      background: transparent;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .dropdown-menu {
+      display: none;
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    .dropdown-menu li {
+      padding: 6px 0;
+      color: rgba(147, 147, 147, 1);
+      cursor: pointer;
+    }
+
+    .dropdown-menu li:hover {
+      color: #000;
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .hr {
+      width: 100%;
+      height: 1px;
+      background-color: rgba(235, 235, 235, 1);
+      margin-bottom: 40px;
+    }
+
+    .btn-1 {
+      width: 100%;
+      height: 40px;
+      border: 1px solid rgba(42, 171, 238, 1);
+      color: rgba(42, 171, 238, 1);
+      background-color: transparent;
+      @include fontInter(500);
+      font-size: 14px;
+      border-radius: 10px;
+      margin-bottom: 6px;
+    }
+    .btn-2 {
+      width: 100%;
+      height: 40px;
+      background-color: rgba(42, 171, 238, 1);
+      color: #fff;
+      @include fontInter(500);
+      font-size: 14px;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+
 .sec-1 {
   width: 100%;
   padding: 10px;
@@ -60,6 +163,48 @@
           display: flex;
           gap: 30px;
           @include fontInter(600);
+          .dropdown {
+            position: relative;
+            display: inline-block;
+            font-family: sans-serif;
+            z-index: 999;
+          }
+
+          .dropdown-toggle {
+            background: transparent;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+          }
+
+          .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 28px;
+            left: 0;
+            background: linear-gradient(to bottom right, #eef5fd, #f8fbff);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+            list-style: none;
+            min-width: 200px;
+          }
+
+          .dropdown-menu li {
+            color: rgba(147, 147, 147, 1);
+            margin-bottom: 10px;
+            cursor: pointer;
+          }
+
+          .dropdown-menu li:hover {
+            color: #000;
+          }
+
+          /* Show dropdown on hover */
+          .dropdown:hover .dropdown-menu {
+            display: block;
+          }
         }
       }
 
@@ -244,12 +389,20 @@
           ul {
             display: none;
           }
+
+          img {
+            width: 70%;
+          }
         }
 
         .btn-menu {
           .btn-gr,
           div {
             display: none;
+          }
+
+          .num {
+            font-size: 14px;
           }
         }
 
@@ -423,6 +576,7 @@
         .p {
           @include fontInter(400);
           color: rgba(102, 112, 133, 1);
+          font-size: 14px;
         }
       }
 
@@ -669,7 +823,7 @@
         width: 100%;
       }
     }
-    button{
+    button {
       width: 100%;
     }
   }
@@ -918,6 +1072,21 @@
         margin-bottom: 10px;
       }
     }
+  }
+
+  .hr {
+    max-width: 1200px;
+    height: 1px;
+    background-color: rgba(208, 213, 221, 1);
+
+    margin: 35px auto 20px;
+  }
+
+  .end-text {
+    text-align: center;
+    @include fontInter(400);
+    font-size: 14px;
+    color: rgba(208, 213, 221, 1);
   }
 
   @media (max-width: 500px) {

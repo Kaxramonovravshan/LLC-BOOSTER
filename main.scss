@@ -68,7 +68,6 @@ select {
     }
 
     .dropdown-container {
-      margin-bottom: 12px;
     }
 
     .dropdown-toggle {
@@ -87,7 +86,6 @@ select {
     .dropdown-menu {
       display: none;
       list-style: none;
-      margin-top: 10px;
       padding-left: 15px;
     }
 
@@ -975,6 +973,7 @@ select {
       .box-2,
       .box-3 {
         width: 100%;
+        border-radius: 25px;
       }
     }
     button {
@@ -998,7 +997,7 @@ select {
   }
   .sec5-con-media {
     max-width: 1200px;
-    height: 465px;
+    height: 320px;
     margin: 0 auto;
     background: url("./img/image.png");
     background-repeat: no-repeat;
@@ -1084,18 +1083,21 @@ select {
         line-height: 30px;
       }
 
-      p {
-        @include fontInter(400);
-        color: rgba(141, 141, 141, 1);
-        font-size: 16px;
-      }
-
       .img-box {
-        width: 130px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
         height: 120px;
         margin-left: auto;
+        p {
+          @include fontInter(400);
+          color: rgba(141, 141, 141, 1);
+          font-size: 16px;
+        }
+
         img {
-          width: 100%;
+          width: 130px;
         }
       }
     }
@@ -1220,25 +1222,36 @@ select {
           width: 269px;
           font-size: 18px;
         }
-        p {
-          font-size: 14px;
+        .img-box {
+          p {
+            font-size: 14px;
+          }
+          img {
+            width: 108px;
+          }
         }
       }
       .box-2 {
         height: 290px;
         h1 {
           font-size: 18px;
+          width: 266px;
         }
         p {
           font-size: 14px;
+          width: 299px;
         }
       }
 
       .box-3 {
+        p {
+          width: 200px;
+        }
         .img-box {
           justify-content: space-between;
           h1 {
-            width: 194px;
+            margin: 0;
+            width: 200px;
             font-size: 18px;
           }
         }
@@ -1250,6 +1263,7 @@ select {
           h1 {
             width: 166px;
             font-size: 18px;
+            margin: 10px;
           }
         }
       }

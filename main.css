@@ -55,9 +55,6 @@ select {
 .nav-media .nav-con-media .contact p {
   margin: 0;
 }
-.nav-media .nav-con-media .dropdown-container {
-  margin-bottom: 12px;
-}
 .nav-media .nav-con-media .dropdown-toggle {
   background: transparent;
   border: none;
@@ -73,7 +70,6 @@ select {
 .nav-media .nav-con-media .dropdown-menu {
   display: none;
   list-style: none;
-  margin-top: 10px;
   padding-left: 15px;
 }
 .nav-media .nav-con-media .dropdown-menu li {
@@ -991,6 +987,7 @@ select {
   .sec-4 .sec4-con .box-2,
   .sec-4 .sec4-con .box-3 {
     width: 100%;
+    border-radius: 25px;
   }
   .sec-4 button {
     width: 100%;
@@ -1012,7 +1009,7 @@ select {
 }
 .sec-5 .sec5-con-media {
   max-width: 1200px;
-  height: 465px;
+  height: 320px;
   margin: 0 auto;
   background: url("./img/image.png");
   background-repeat: no-repeat;
@@ -1106,7 +1103,15 @@ select {
   text-align: left;
   line-height: 30px;
 }
-.sec-6 .sec6-con .box-1 p {
+.sec-6 .sec6-con .box-1 .img-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 120px;
+  margin-left: auto;
+}
+.sec-6 .sec6-con .box-1 .img-box p {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -1114,13 +1119,8 @@ select {
   color: rgb(141, 141, 141);
   font-size: 16px;
 }
-.sec-6 .sec6-con .box-1 .img-box {
-  width: 130px;
-  height: 120px;
-  margin-left: auto;
-}
 .sec-6 .sec6-con .box-1 .img-box img {
-  width: 100%;
+  width: 130px;
 }
 .sec-6 .sec6-con .box-2 {
   width: 400px;
@@ -1252,23 +1252,32 @@ select {
     width: 269px;
     font-size: 18px;
   }
-  .sec-6 .sec6-con .box-1 p {
+  .sec-6 .sec6-con .box-1 .img-box p {
     font-size: 14px;
+  }
+  .sec-6 .sec6-con .box-1 .img-box img {
+    width: 108px;
   }
   .sec-6 .sec6-con .box-2 {
     height: 290px;
   }
   .sec-6 .sec6-con .box-2 h1 {
     font-size: 18px;
+    width: 266px;
   }
   .sec-6 .sec6-con .box-2 p {
     font-size: 14px;
+    width: 299px;
+  }
+  .sec-6 .sec6-con .box-3 p {
+    width: 200px;
   }
   .sec-6 .sec6-con .box-3 .img-box {
     justify-content: space-between;
   }
   .sec-6 .sec6-con .box-3 .img-box h1 {
-    width: 194px;
+    margin: 0;
+    width: 200px;
     font-size: 18px;
   }
   .sec-6 .sec6-con .box-4 {
@@ -1280,6 +1289,7 @@ select {
   .sec-6 .sec6-con .box-4 .img-box h1 {
     width: 166px;
     font-size: 18px;
+    margin: 10px;
   }
 }
 

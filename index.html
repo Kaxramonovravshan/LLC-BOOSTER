@@ -23,14 +23,18 @@
         <div class="hr"></div>
 
         <p>About us</p>
-        <div class="dropdown">
-          <button class="dropdown-toggle">Services ▾</button>
-          <div class="dropdown-menu">
-            <a href="#">Apply for EIN</a>
-            <a href="#">Annual Report</a>
-            <a href="#">BOI Report</a>
-            <a href="#">Register Agent</a>
-          </div>
+        <div class="dropdown-container">
+          <button class="dropdown-toggle" onclick="toggleDropdown()">
+            Services <img src="./img/eva_arrow-up-fill.svg" alt="" />
+          </button>
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <li>Apply for EIN</li>
+            <li>Annual Report</li>
+            <li>BOI Report</li>
+            <li>Register Agent Service</li>
+            <li>Virtual Mailbox Service</li>
+            <li>Business Address</li>
+          </ul>
         </div>
 
         <div class="content-below">
@@ -411,11 +415,12 @@
           <h1>
             EIN, Bank Account, Reports? You Won’t Even Have to Think About It!
           </h1>
-          <p>
-            We guide you step by step. No need to Google, no stress—just a
-            business that works
-          </p>
+
           <div class="img-box">
+            <p>
+              We guide you step by step. No need to Google, no stress—just a
+              business that works
+            </p>
             <img src="./img/1.png" alt="" />
           </div>
         </div>

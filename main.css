@@ -831,20 +831,25 @@ select {
   background: url("./img/Frame 2618.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 15px;
   border-radius: 28px;
+}
+.sec-3 .sec3-con-media div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 .sec-3 .sec3-con-media div h1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 32px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
-  margin-bottom: 35px;
 }
 .sec-3 .sec3-con-media div button {
-  width: 238px;
+  width: 200px;
   height: 50px;
   background-color: rgb(42, 171, 238);
   display: flex;
@@ -858,7 +863,7 @@ select {
   font-weight: 500;
   font-style: normal;
   border-radius: 9px;
-  font-size: 14px;
+  font-size: 13px;
 }
 @media (max-width: 500px) {
   .sec-3 {
@@ -871,9 +876,8 @@ select {
     display: none;
   }
   .sec-3 .sec3-con-media {
-    display: flex;
-    justify-content: center;
     padding-top: 60px;
+    display: block;
   }
 }
 

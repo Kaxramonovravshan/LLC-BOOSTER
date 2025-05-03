@@ -806,19 +806,55 @@ select {
     background-size: 100% 100%;
     padding: 15px;
     border-radius: 28px;
-    // border: 1px solid rgba(227, 232, 246, 1);
-    // box-shadow: 0px 29.3px 66.92px 0px rgba(66, 68, 106, 0.08);
+  }
+  .sec3-con-media {
+    display: none;
+    max-width: 1210px;
+    height: 575px;
+    margin: 0 auto;
+    background: url("./img/Frame\ 2618.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    border-radius: 28px;
+
+    div {
+      h1 {
+        @include fontInter(600);
+        font-size: 32px;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 35px;
+      }
+      button {
+        width: 238px;
+        height: 50px;
+        background-color: rgba(42, 171, 238, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        color: #fff;
+        @include fontInter(500);
+        border-radius: 9px;
+        font-size: 14px;
+      }
+    }
   }
 
   @media (max-width: 500px) {
     margin-bottom: 10px;
     .sec3-con {
-      background: url("./img/Frame\ 2618.png");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
       border-radius: 0;
       margin: 0;
       padding: 0;
+      display: none;
+    }
+
+    .sec3-con-media {
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
     }
   }
 }
@@ -947,13 +983,48 @@ select {
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
+  .sec5-con-media {
+    max-width: 1200px;
+    height: 465px;
+    margin: 0 auto;
+    background: url("./img/image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+
+    div {
+      width: 290px;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+      h1 {
+        @include fontInter(600);
+        font-size: 28px;
+      }
+      p {
+        @include fontInter(400);
+        font-size: 14px;
+        margin: 10px 0 20px;
+      }
+      button {
+        width: 120px;
+        height: 44px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 9px;
+        color: rgba(255, 255, 255, 1);
+        background-color: transparent;
+      }
+    }
+  }
 
   @media (max-width: 500px) {
     margin-bottom: 40px;
     .sec5-con {
-      background: url("./img/image.png");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
+      display: none;
+    }
+    .sec5-con-media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
@@ -1141,7 +1212,7 @@ select {
         }
       }
       .box-2 {
-        min-height: 270px;
+        height: 290px;
         h1 {
           font-size: 18px;
         }

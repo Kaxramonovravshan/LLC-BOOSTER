@@ -823,17 +823,57 @@ select {
   padding: 15px;
   border-radius: 28px;
 }
+.sec-3 .sec3-con-media {
+  display: none;
+  max-width: 1210px;
+  height: 575px;
+  margin: 0 auto;
+  background: url("./img/Frame 2618.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 15px;
+  border-radius: 28px;
+}
+.sec-3 .sec3-con-media div h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 35px;
+}
+.sec-3 .sec3-con-media div button {
+  width: 238px;
+  height: 50px;
+  background-color: rgb(42, 171, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 9px;
+  font-size: 14px;
+}
 @media (max-width: 500px) {
   .sec-3 {
     margin-bottom: 10px;
   }
   .sec-3 .sec3-con {
-    background: url("./img/Frame 2618.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     border-radius: 0;
     margin: 0;
     padding: 0;
+    display: none;
+  }
+  .sec-3 .sec3-con-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
   }
 }
 
@@ -956,14 +996,54 @@ select {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.sec-5 .sec5-con-media {
+  max-width: 1200px;
+  height: 465px;
+  margin: 0 auto;
+  background: url("./img/image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.sec-5 .sec5-con-media div {
+  width: 290px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.sec-5 .sec5-con-media div h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+}
+.sec-5 .sec5-con-media div p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+.sec-5 .sec5-con-media div button {
+  width: 120px;
+  height: 44px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
 @media (max-width: 500px) {
   .sec-5 {
     margin-bottom: 40px;
   }
   .sec-5 .sec5-con {
-    background: url("./img/image.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    display: none;
+  }
+  .sec-5 .sec5-con-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1162,7 +1242,7 @@ select {
     font-size: 14px;
   }
   .sec-6 .sec6-con .box-2 {
-    min-height: 270px;
+    height: 290px;
   }
   .sec-6 .sec6-con .box-2 h1 {
     font-size: 18px;

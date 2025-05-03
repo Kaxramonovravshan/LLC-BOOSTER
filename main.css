@@ -1239,6 +1239,8 @@ select {
   }
   .sec-6 h1 {
     font-size: 28px;
+    width: 314px;
+    margin: 0 auto;
   }
   .sec-6 .sec6-con {
     display: flex;

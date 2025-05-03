@@ -8,6 +8,8 @@
 
 select {
   padding: 10px;
+  font-size: 15px;
+  color: rgb(22, 36, 44);
 }
 
 .nav-media {
@@ -145,7 +147,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 15px;
   box-shadow: 0px 2px 11.3px 0px rgba(185, 175, 175, 0.25);
   border-radius: 14px;
   background-color: white;
@@ -237,6 +239,7 @@ select {
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
+  color: rgb(7, 34, 96);
 }
 .sec-1 .sec1-con .nav-con .btn-menu .btn-gr {
   display: flex;
@@ -516,7 +519,7 @@ select {
   margin-bottom: 30px;
 }
 .sec-2 .sec2-con {
-  max-width: 1110px;
+  max-width: 1000px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -526,15 +529,15 @@ select {
   gap: 15px;
 }
 .sec-2 .sec2-con .box-1 {
-  min-height: 710px;
+  min-height: 550px;
   background-color: #fff;
-  width: 26%;
+  width: 310px;
   border: 1px solid rgb(234, 236, 240);
   border-radius: 15px;
   padding-bottom: 20px;
 }
 .sec-2 .sec2-con .box-1 .box-head {
-  padding: 15px;
+  padding: 20px 0;
 }
 .sec-2 .sec2-con .box-1 .box-head img {
   margin-bottom: 6px;
@@ -574,16 +577,18 @@ select {
   font-weight: 400;
   font-style: normal;
   color: rgb(102, 112, 133);
-  box-sizing: 18px;
+  font-size: 13px;
 }
 .sec-2 .sec2-con .box-1 .box-body {
-  padding: 0 10px;
+  padding: 0 13px;
 }
 .sec-2 .sec2-con .box-1 .box-body div {
+  line-height: 13px;
   display: flex;
   align-items: center;
+  font-size: 12px;
   justify-content: left;
-  gap: 10px;
+  gap: 6px;
   margin-bottom: 10px;
   text-align: left;
   font-family: "Inter", sans-serif;
@@ -604,20 +609,20 @@ select {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  font-size: 12px;
   color: rgb(255, 255, 255);
   border: none;
-  margin-top: 13px;
 }
 .sec-2 .sec2-con .box-2 {
-  min-height: 710px;
+  min-height: 550px;
   background-color: #fff;
-  width: 26%;
+  width: 310px;
   border: 1px solid rgb(234, 236, 240);
   border-radius: 15px;
   padding-bottom: 20px;
 }
 .sec-2 .sec2-con .box-2 .box-head {
-  padding: 15px;
+  padding: 20px 0;
 }
 .sec-2 .sec2-con .box-2 .box-head img {
   margin-bottom: 6px;
@@ -657,17 +662,19 @@ select {
   font-weight: 400;
   font-style: normal;
   color: rgb(102, 112, 133);
-  font-size: 14px;
+  font-size: 13px;
 }
 .sec-2 .sec2-con .box-2 .box-body {
-  padding: 0 10px;
+  padding: 0 13px;
 }
 .sec-2 .sec2-con .box-2 .box-body div {
+  line-height: 13px;
   display: flex;
   align-items: center;
   justify-content: left;
-  gap: 10px;
+  gap: 6px;
   margin-bottom: 10px;
+  font-size: 12px;
   text-align: left;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -680,6 +687,7 @@ select {
 }
 .sec-2 .sec2-con .box-2 .box-body button {
   width: 100%;
+  font-size: 12px;
   height: 36px;
   background-color: rgb(28, 216, 210);
   border-radius: 6px;
@@ -689,17 +697,18 @@ select {
   font-style: normal;
   color: rgb(255, 255, 255);
   border: none;
+  margin-top: 2px;
 }
 .sec-2 .sec2-con .box-3 {
-  min-height: 710px;
+  min-height: 550px;
   background-color: #fff;
-  width: 26%;
+  width: 310px;
   border: 1px solid rgb(234, 236, 240);
   border-radius: 15px;
   padding-bottom: 20px;
 }
 .sec-2 .sec2-con .box-3 .box-head {
-  padding: 15px;
+  padding: 20px 0;
 }
 .sec-2 .sec2-con .box-3 .box-head img {
   margin-bottom: 6px;
@@ -739,22 +748,24 @@ select {
   font-weight: 400;
   font-style: normal;
   color: rgb(102, 112, 133);
-  font-size: 14px;
+  font-size: 13px;
 }
 .sec-2 .sec2-con .box-3 .box-body {
-  padding: 0 10px;
+  padding: 0 13px;
 }
 .sec-2 .sec2-con .box-3 .box-body div {
+  line-height: 13px;
   display: flex;
   align-items: center;
   justify-content: left;
-  gap: 10px;
+  gap: 6px;
   margin-bottom: 10px;
   text-align: left;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  font-size: 12px;
   color: rgb(22, 36, 44);
 }
 .sec-2 .sec2-con .box-3 .box-body div .gray {
@@ -763,6 +774,7 @@ select {
 .sec-2 .sec2-con .box-3 .box-body button {
   width: 100%;
   height: 36px;
+  font-size: 12px;
   background-color: rgb(248, 87, 166);
   border-radius: 6px;
   font-family: "Inter", sans-serif;
@@ -771,6 +783,7 @@ select {
   font-style: normal;
   color: rgb(255, 255, 255);
   border: none;
+  margin-top: 2px;
 }
 @media (max-width: 500px) {
   .sec-2 {
@@ -796,7 +809,6 @@ select {
 
 .sec-3 {
   width: 100%;
-  padding: 10px;
   margin-bottom: 80px;
 }
 .sec-3 .sec3-con {
@@ -810,8 +822,16 @@ select {
   border-radius: 28px;
 }
 @media (max-width: 500px) {
+  .sec-3 {
+    margin-bottom: 30px;
+  }
   .sec-3 .sec3-con {
-    height: 250px;
+    background: url("./img/Frame 2618.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -939,7 +959,9 @@ select {
     margin-bottom: 40px;
   }
   .sec-5 .sec5-con {
-    height: 200px;
+    background: url("./img/image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 }
 
@@ -958,7 +980,6 @@ select {
 }
 .sec-6 .sec6-con {
   max-width: 1000px;
-  padding: 30px;
   height: 100%;
   margin: 0 auto;
   z-index: 1;
@@ -972,7 +993,8 @@ select {
   padding: 20px;
 }
 .sec-6 .sec6-con .box-1 {
-  width: 38%;
+  width: 396px;
+  min-height: 330px;
   padding: 20px;
   border-radius: 22px;
   background-color: rgb(255, 255, 255);
@@ -984,6 +1006,9 @@ select {
   font-style: normal;
   font-size: 20px;
   margin-bottom: 20px;
+  width: 310px;
+  text-align: left;
+  line-height: 30px;
 }
 .sec-6 .sec6-con .box-1 p {
   font-family: "Inter", sans-serif;
@@ -994,12 +1019,16 @@ select {
   font-size: 16px;
 }
 .sec-6 .sec6-con .box-1 .img-box {
-  display: flex;
-  align-items: center;
-  justify-content: right;
+  width: 130px;
+  height: 120px;
+  margin-left: auto;
+}
+.sec-6 .sec6-con .box-1 .img-box img {
+  width: 100%;
 }
 .sec-6 .sec6-con .box-2 {
-  width: 38%;
+  width: 400px;
+  height: 330px;
   padding: 20px;
   border-radius: 22px;
   background-color: rgb(255, 255, 255);
@@ -1011,6 +1040,8 @@ select {
   font-style: normal;
   font-size: 20px;
   margin-bottom: 20px;
+  text-align: left;
+  line-height: 30px;
 }
 .sec-6 .sec6-con .box-2 p {
   font-family: "Inter", sans-serif;
@@ -1021,24 +1052,20 @@ select {
   font-size: 16px;
 }
 .sec-6 .sec6-con .box-2 .img-box {
-  display: flex;
-  align-items: center;
-  justify-content: right;
+  width: 130px;
+  height: 120px;
+  margin-left: auto;
+}
+.sec-6 .sec6-con .box-2 .img-box img {
+  width: 100%;
 }
 .sec-6 .sec6-con .box-3 {
-  width: 28%;
+  width: 351px;
+  height: 215px;
   margin-bottom: -30px;
   padding: 20px;
   border-radius: 22px;
   background-color: rgb(255, 255, 255);
-}
-.sec-6 .sec6-con .box-3 h1 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 .sec-6 .sec6-con .box-3 p {
   font-family: "Inter", sans-serif;
@@ -1054,19 +1081,24 @@ select {
   gap: 10px;
   margin-bottom: 10px;
 }
-.sec-6 .sec6-con .box-4 {
-  width: 33%;
-  padding: 20px;
-  border-radius: 22px;
-  background-color: rgb(255, 255, 255);
-}
-.sec-6 .sec6-con .box-4 h1 {
+.sec-6 .sec6-con .box-3 .img-box h1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+}
+.sec-6 .sec6-con .box-3 .img-box img {
+  width: 70px;
+}
+.sec-6 .sec6-con .box-4 {
+  width: 284px;
+  height: 270px;
+  padding: 20px;
+  border-radius: 22px;
+  background-color: rgb(255, 255, 255);
 }
 .sec-6 .sec6-con .box-4 p {
   font-family: "Inter", sans-serif;
@@ -1082,6 +1114,18 @@ select {
   gap: 10px;
   margin-bottom: 10px;
 }
+.sec-6 .sec6-con .box-4 .img-box h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+}
+.sec-6 .sec6-con .box-4 .img-box img {
+  width: 80px;
+}
 @media (max-width: 500px) {
   .sec-6 {
     margin-bottom: 40px;
@@ -1093,11 +1137,13 @@ select {
     display: flex;
     flex-direction: column;
     position: static;
+    gap: 10px;
   }
   .sec-6 .sec6-con .box-1,
   .sec-6 .sec6-con .box-2,
   .sec-6 .sec6-con .box-3,
   .sec-6 .sec6-con .box-4 {
+    min-height: 220px;
     top: 0;
     left: 0;
     position: static;
@@ -1105,6 +1151,41 @@ select {
     margin-bottom: 10px;
     box-shadow: 0px 3.17px 12.31px 0px rgba(0, 76, 255, 0.11);
     box-shadow: 0px 29.3px 46.92px 0px rgba(66, 68, 106, 0.08);
+  }
+  .sec-6 .sec6-con .box-1 h1,
+  .sec-6 .sec6-con .box-2 h1,
+  .sec-6 .sec6-con .box-3 h1,
+  .sec-6 .sec6-con .box-4 h1 {
+    font-size: 18px;
+  }
+  .sec-6 .sec6-con .box-1 p,
+  .sec-6 .sec6-con .box-2 p,
+  .sec-6 .sec6-con .box-3 p,
+  .sec-6 .sec6-con .box-4 p {
+    font-size: 14px;
+  }
+  .sec-6 .sec6-con .box-1 h1 {
+    width: 269px;
+  }
+  .sec-6 .sec6-con .box-2 {
+    height: 270px;
+  }
+  .sec-6 .sec6-con .box-3 .img-box {
+    justify-content: space-between;
+  }
+  .sec-6 .sec6-con .box-3 .img-box h1 {
+    width: 194px;
+    font-size: 18px;
+  }
+  .sec-6 .sec6-con .box-4 {
+    height: 210px;
+  }
+  .sec-6 .sec6-con .box-4 .img-box {
+    justify-content: space-between;
+  }
+  .sec-6 .sec6-con .box-4 .img-box h1 {
+    width: 166px;
+    font-size: 18px;
   }
 }
 
@@ -1210,6 +1291,10 @@ select {
     flex-direction: column;
     gap: 10px;
     text-align: center;
+  }
+  .sec-7 .top-footer p {
+    font-size: 18px;
+    width: 297px;
   }
   .sec-7 .top-footer div {
     width: 100%;

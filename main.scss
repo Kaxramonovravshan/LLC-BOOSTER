@@ -71,9 +71,6 @@ select {
       }
     }
 
-    .dropdown-container {
-    }
-
     .dropdown-toggle {
       background: transparent;
       border: none;
@@ -110,6 +107,10 @@ select {
       justify-content: space-between;
       align-items: center;
       margin-bottom: 16px;
+      img {
+        width: 71px;
+        height: 45px;
+      }
     }
 
     .hr {
@@ -181,6 +182,11 @@ select {
         display: flex;
         align-items: center;
         gap: 130px;
+
+        .logo-img {
+          width: 71px;
+          height: 45px;
+        }
 
         ul {
           list-style: none;
@@ -407,6 +413,9 @@ select {
           color: #fff;
           @include fontInter(600);
           text-align: center;
+          img {
+            width: 30px;
+          }
         }
       }
       .box-2 {
@@ -427,6 +436,9 @@ select {
           gap: 6px;
           color: #fff;
           @include fontInter(600);
+          img {
+            width: 30px;
+          }
         }
       }
     }

@@ -1141,7 +1141,7 @@ select {
         }
       }
       .box-2 {
-        height: 270px;
+        min-height: 270px;
         h1 {
           font-size: 18px;
         }

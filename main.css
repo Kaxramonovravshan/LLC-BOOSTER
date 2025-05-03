@@ -1162,7 +1162,7 @@ select {
     font-size: 14px;
   }
   .sec-6 .sec6-con .box-2 {
-    height: 270px;
+    min-height: 270px;
   }
   .sec-6 .sec6-con .box-2 h1 {
     font-size: 18px;

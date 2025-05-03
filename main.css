@@ -13,6 +13,19 @@ select {
   background-color: rgb(255, 255, 255);
 }
 
+select::after {
+  content: "";
+  background: url("./img/Left Actionable.svg") no-repeat center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
 .nav-media {
   width: 100%;
   height: 100vh;

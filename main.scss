@@ -82,6 +82,7 @@ select {
       align-items: center;
       height: 100%;
       color: rgba(7, 34, 96, 1);
+      margin-bottom: 12px;
     }
 
     .dropdown-menu {
@@ -107,9 +108,9 @@ select {
       justify-content: space-between;
       align-items: center;
       margin-bottom: 16px;
-      img {
-        width: 71px;
-        height: 45px;
+      .logo-img {
+        width: 56px;
+        height: 36px;
       }
     }
 
@@ -453,8 +454,9 @@ select {
             display: none;
           }
 
-          img {
-            width: 90%;
+          .logo-img {
+            width: 43px;
+            height: 26px;
           }
         }
 

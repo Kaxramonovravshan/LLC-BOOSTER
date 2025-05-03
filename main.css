@@ -70,6 +70,7 @@ select {
   align-items: center;
   height: 100%;
   color: rgb(7, 34, 96);
+  margin-bottom: 12px;
 }
 .nav-media .nav-con-media .dropdown-menu {
   display: none;
@@ -95,9 +96,9 @@ select {
   align-items: center;
   margin-bottom: 16px;
 }
-.nav-media .nav-con-media .top img {
-  width: 71px;
-  height: 45px;
+.nav-media .nav-con-media .top .logo-img {
+  width: 56px;
+  height: 36px;
 }
 .nav-media .nav-con-media .hr {
   width: 100%;
@@ -445,8 +446,9 @@ select {
   .sec-1 .sec1-con .nav-con .logo-menu ul {
     display: none;
   }
-  .sec-1 .sec1-con .nav-con .logo-menu img {
-    width: 90%;
+  .sec-1 .sec1-con .nav-con .logo-menu .logo-img {
+    width: 43px;
+    height: 26px;
   }
   .sec-1 .sec1-con .nav-con .btn-menu .btn-gr,
   .sec-1 .sec1-con .nav-con .btn-menu div {

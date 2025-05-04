@@ -66,8 +66,16 @@ select {
       align-items: center;
       border-radius: 10px;
       margin-bottom: 15px;
+      gap: 8px;
       p {
         margin: 0;
+        margin-left: 10px;
+      }
+      .tg-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
       }
     }
 
@@ -179,6 +187,13 @@ select {
       margin-bottom: 47px;
       background: linear-gradient(to bottom right, #ffffff, rgb(229, 247, 249));
 
+      .num {
+        @include fontInter(600);
+        font-size: 14px;
+        color: rgba(7, 34, 96, 1);
+        margin-left: auto;
+      }
+
       .logo-menu {
         display: flex;
         align-items: center;
@@ -193,6 +208,8 @@ select {
           list-style: none;
           display: flex;
           gap: 30px;
+          color: rgba(7, 34, 96, 1);
+          font-size: 14px;
           @include fontInter(600);
           .dropdown {
             position: relative;
@@ -242,6 +259,7 @@ select {
             height: 100%;
             @include fontInter(600);
             font-size: 14px;
+            color: rgba(7, 34, 96, 1);
           }
         }
       }
@@ -251,6 +269,12 @@ select {
         justify-content: space-between;
         align-items: center;
         gap: 15px;
+        margin-left: 22px;
+        .contact {
+          display: flex;
+          align-items: center;
+          gap: 22px;
+        }
 
         .lan {
           @include fontInter(400);
@@ -258,11 +282,6 @@ select {
           display: flex;
           align-items: center;
           gap: 6px;
-        }
-
-        .num {
-          @include fontInter(600);
-          font-size: 14px;
           color: rgba(7, 34, 96, 1);
         }
 
@@ -297,10 +316,9 @@ select {
 
           @include fontInter(500);
         }
-      }
-
-      .burger {
-        display: none;
+        .burger {
+          display: none;
+        }
       }
     }
 
@@ -449,6 +467,12 @@ select {
     padding: 10px 0;
     .sec1-con {
       .nav-con {
+        padding: 9px;
+        .num {
+          font-size: 13px;
+          margin: 0;
+          margin-left: 23px;
+        }
         .logo-menu {
           ul {
             display: none;
@@ -461,18 +485,17 @@ select {
         }
 
         .btn-menu {
+          .contact {
+            gap: 44px;
+          }
           .btn-gr,
           div {
             display: none;
           }
 
-          .num {
-            font-size: 14px;
+          .burger {
+            display: block;
           }
-        }
-
-        .burger {
-          display: block;
         }
       }
 
@@ -845,7 +868,7 @@ select {
     max-width: 1210px;
     height: 575px;
     margin: 0 auto;
-    background: url("./img/Frame\ 2618.png");
+    background: url("./img/robo.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 28px;
@@ -874,6 +897,7 @@ select {
         @include fontInter(500);
         border-radius: 9px;
         font-size: 13px;
+        display: none;
       }
     }
   }
@@ -888,8 +912,8 @@ select {
     }
 
     .sec3-con-media {
-      padding-top: 60px;
-      padding-left: 80px;
+      padding-top: 70px;
+      padding-left: 70px;
       display: block;
     }
   }
@@ -980,7 +1004,7 @@ select {
     background-color: rgba(0, 76, 255, 1);
     border-radius: 100px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @media (max-width: 500px) {
@@ -988,7 +1012,9 @@ select {
     margin-bottom: 40px;
 
     h1 {
+      width: 314px;
       font-size: 24px;
+      margin: 0 auto 40px;
     }
 
     .sec4-con {
@@ -1248,6 +1274,8 @@ select {
         h1 {
           width: 269px;
           font-size: 18px;
+          margin: 0;
+          margin-bottom: 12px;
         }
         .img-box {
           p {
@@ -1263,10 +1291,17 @@ select {
         h1 {
           font-size: 18px;
           width: 266px;
+          margin: 0;
+          margin-bottom: 12px;
         }
         p {
           font-size: 14px;
           width: 280px;
+        }
+
+        .img-box {
+          width: 89px;
+          height: 89px;
         }
       }
 

@@ -55,9 +55,17 @@ select {
   align-items: center;
   border-radius: 10px;
   margin-bottom: 15px;
+  gap: 8px;
 }
 .nav-media .nav-con-media .contact p {
   margin: 0;
+  margin-left: 10px;
+}
+.nav-media .nav-con-media .contact .tg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 .nav-media .nav-con-media .dropdown-toggle {
   background: transparent;
@@ -164,6 +172,15 @@ select {
   margin-bottom: 47px;
   background: linear-gradient(to bottom right, #ffffff, rgb(229, 247, 249));
 }
+.sec-1 .sec1-con .nav-con .num {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: rgb(7, 34, 96);
+  margin-left: auto;
+}
 .sec-1 .sec1-con .nav-con .logo-menu {
   display: flex;
   align-items: center;
@@ -177,6 +194,8 @@ select {
   list-style: none;
   display: flex;
   gap: 30px;
+  color: rgb(7, 34, 96);
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -229,12 +248,19 @@ select {
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
+  color: rgb(7, 34, 96);
 }
 .sec-1 .sec1-con .nav-con .btn-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
+  margin-left: 22px;
+}
+.sec-1 .sec1-con .nav-con .btn-menu .contact {
+  display: flex;
+  align-items: center;
+  gap: 22px;
 }
 .sec-1 .sec1-con .nav-con .btn-menu .lan {
   font-family: "Inter", sans-serif;
@@ -245,13 +271,6 @@ select {
   display: flex;
   align-items: center;
   gap: 6px;
-}
-.sec-1 .sec1-con .nav-con .btn-menu .num {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 14px;
   color: rgb(7, 34, 96);
 }
 .sec-1 .sec1-con .nav-con .btn-menu .btn-gr {
@@ -289,7 +308,7 @@ select {
   font-weight: 500;
   font-style: normal;
 }
-.sec-1 .sec1-con .nav-con .burger {
+.sec-1 .sec1-con .nav-con .btn-menu .burger {
   display: none;
 }
 .sec-1 .sec1-con .sec1-card {
@@ -443,6 +462,14 @@ select {
   .sec-1 {
     padding: 10px 0;
   }
+  .sec-1 .sec1-con .nav-con {
+    padding: 9px;
+  }
+  .sec-1 .sec1-con .nav-con .num {
+    font-size: 13px;
+    margin: 0;
+    margin-left: 23px;
+  }
   .sec-1 .sec1-con .nav-con .logo-menu ul {
     display: none;
   }
@@ -450,14 +477,14 @@ select {
     width: 43px;
     height: 26px;
   }
+  .sec-1 .sec1-con .nav-con .btn-menu .contact {
+    gap: 44px;
+  }
   .sec-1 .sec1-con .nav-con .btn-menu .btn-gr,
   .sec-1 .sec1-con .nav-con .btn-menu div {
     display: none;
   }
-  .sec-1 .sec1-con .nav-con .btn-menu .num {
-    font-size: 14px;
-  }
-  .sec-1 .sec1-con .nav-con .burger {
+  .sec-1 .sec1-con .nav-con .btn-menu .burger {
     display: block;
   }
   .sec-1 .sec1-con .sec1-card {
@@ -861,7 +888,7 @@ select {
   max-width: 1210px;
   height: 575px;
   margin: 0 auto;
-  background: url("./img/Frame 2618.png");
+  background: url("./img/robo.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 28px;
@@ -896,6 +923,7 @@ select {
   font-style: normal;
   border-radius: 9px;
   font-size: 13px;
+  display: none;
 }
 @media (max-width: 500px) {
   .sec-3 {
@@ -908,8 +936,8 @@ select {
     display: none;
   }
   .sec-3 .sec3-con-media {
-    padding-top: 60px;
-    padding-left: 80px;
+    padding-top: 70px;
+    padding-left: 70px;
     display: block;
   }
 }
@@ -996,7 +1024,7 @@ select {
   background-color: rgb(0, 76, 255);
   border-radius: 100px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (max-width: 500px) {
   .sec-4 {
@@ -1004,7 +1032,9 @@ select {
     margin-bottom: 40px;
   }
   .sec-4 h1 {
+    width: 314px;
     font-size: 24px;
+    margin: 0 auto 40px;
   }
   .sec-4 .sec4-con {
     flex-direction: column;
@@ -1280,6 +1310,8 @@ select {
   .sec-6 .sec6-con .box-1 h1 {
     width: 269px;
     font-size: 18px;
+    margin: 0;
+    margin-bottom: 12px;
   }
   .sec-6 .sec6-con .box-1 .img-box p {
     font-size: 14px;
@@ -1293,10 +1325,16 @@ select {
   .sec-6 .sec6-con .box-2 h1 {
     font-size: 18px;
     width: 266px;
+    margin: 0;
+    margin-bottom: 12px;
   }
   .sec-6 .sec6-con .box-2 p {
     font-size: 14px;
     width: 280px;
+  }
+  .sec-6 .sec6-con .box-2 .img-box {
+    width: 89px;
+    height: 89px;
   }
   .sec-6 .sec6-con .box-3 {
     min-height: 250px;

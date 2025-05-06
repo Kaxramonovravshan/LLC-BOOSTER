@@ -93,6 +93,9 @@ select {
       height: 100%;
       color: rgba(7, 34, 96, 1);
       margin-bottom: 12px;
+      img {
+        width: 7px;
+      }
     }
 
     .dropdown-menu {
@@ -114,11 +117,13 @@ select {
     }
 
     .dropdown-container img {
+      width: 7px;
       transform: rotate(180deg);
       transition: transform 0.3s ease;
     }
 
     .dropdown-container.open img {
+      width: 7px;
       transform: rotate(0deg);
       transition: transform 0.3s ease;
     }
@@ -246,6 +251,16 @@ select {
             display: block;
           }
 
+          .dropdown:hover .dropdown-toggle img {
+            transform: rotate(0deg);
+            transition: transform 0.3s ease;
+          }
+
+          .dropdown-toggle img {
+            transform: rotate(180deg);
+
+            transition: transform 0.3s ease;
+          }
           .dropdown-menu li {
             @include fontInter(400);
             font-size: 14px;
@@ -266,12 +281,16 @@ select {
             font-weight: bold;
             cursor: pointer;
             display: flex;
-            gap: 6px;
+            gap: 3px;
             align-items: center;
             height: 100%;
             @include fontInter(600);
             font-size: 14px;
             color: rgba(7, 34, 96, 1);
+
+            img {
+              width: 7px;
+            }
           }
         }
       }
@@ -477,6 +496,7 @@ select {
 
   @media (max-width: 500px) {
     padding: 10px 0;
+    margin-bottom: 40px;
     .sec1-con {
       .nav-con {
         padding: 9px;
@@ -541,6 +561,12 @@ select {
         .box-1,
         .box-2 {
           width: 100%;
+
+          div {
+            p {
+              font-size: 13px;
+            }
+          }
         }
       }
     }
@@ -1030,7 +1056,7 @@ select {
     h1 {
       width: 314px;
       font-size: 24px;
-      margin: 0 auto 40px;
+      margin: 0 auto 20px;
     }
 
     .sec4-con {
@@ -1044,7 +1070,10 @@ select {
       }
     }
     button {
-      width: 100%;
+      width: 95%;
+      height: 58px;
+      margin: 0 auto;
+      display: block;
     }
   }
 }
@@ -1227,6 +1256,9 @@ select {
         }
       }
     }
+    .box-3-media {
+      display: none;
+    }
     .box-4 {
       width: 284px;
       height: 270px;
@@ -1239,6 +1271,7 @@ select {
         @include fontInter(400);
         color: rgba(141, 141, 141, 1);
         font-size: 16px;
+        text-align: left;
       }
 
       .img-box {
@@ -1275,18 +1308,57 @@ select {
       .box-1,
       .box-2,
       .box-3,
-      .box-4 {
-        min-height: 220px;
+      .box-4,
+      .box-3-media {
+        width: 343px;
         top: 0;
         left: 0;
         position: static;
-        width: 100%;
-        margin-bottom: 10px;
         box-shadow: 0px 3.17px 12.31px 0px rgba(0, 76, 255, 0.11);
         box-shadow: 0px 29.3px 46.92px 0px rgba(66, 68, 106, 0.08);
       }
 
+      .box-3 {
+        display: none;
+      }
+
+      .box-3-media {
+        display: block;
+        height: 190px;
+        padding: 20px;
+        border-radius: 22px;
+        background-color: rgba(255, 255, 255, 1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+
+        .img-box {
+          height: 90%;
+          h1 {
+            margin: 0;
+            width: 200px;
+            @include fontInter(700);
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 15px;
+          }
+
+          p {
+            @include fontInter(400);
+            font-size: 14px;
+
+            color: rgba(141, 141, 141, 1);
+          }
+        }
+      }
+
       .box-1 {
+        min-height: 0;
+        height: 230px;
         h1 {
           width: 269px;
           font-size: 18px;
@@ -1303,7 +1375,7 @@ select {
         }
       }
       .box-2 {
-        height: 290px;
+        height: 240px;
         h1 {
           font-size: 18px;
           width: 266px;
@@ -1322,7 +1394,7 @@ select {
       }
 
       .box-3 {
-        min-height: 250px;
+        min-height: 190px;
         p {
           width: 200px;
         }
@@ -1333,9 +1405,6 @@ select {
             width: 200px;
             font-size: 18px;
           }
-          img {
-            margin-top: 50px;
-          }
         }
       }
       .box-4 {
@@ -1343,9 +1412,7 @@ select {
         .img-box {
           justify-content: space-between;
           h1 {
-            width: 166px;
             font-size: 18px;
-            margin: 10px;
           }
         }
       }

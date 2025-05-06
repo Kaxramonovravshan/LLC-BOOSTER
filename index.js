@@ -14,11 +14,11 @@ function toggleDropdown() {
 
   if (isOpen) {
     menu.style.display = "none";
-    icon.src = "./img/eva_arrow-up-fill.svg";
+    icon.src = "./img/bottom.svg";
     dropdown.classList.remove("open");
   } else {
     menu.style.display = "block";
-    icon.src = "./img/eva_arrow-up-fill.svg";
+    icon.src = "./img/bottom.svg";
     dropdown.classList.add("open");
   }
 }

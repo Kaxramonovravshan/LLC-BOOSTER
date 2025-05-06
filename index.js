@@ -7,9 +7,18 @@ function closeNav() {
 
 function toggleDropdown() {
   const menu = document.getElementById("dropdownMenu");
-  if (menu.style.display === "block") {
+  const icon = document.getElementById("arrowIcon");
+  const dropdown = document.getElementById("dropdown");
+
+  const isOpen = menu.style.display === "block";
+
+  if (isOpen) {
     menu.style.display = "none";
+    icon.src = "./img/eva_arrow-up-fill.svg";
+    dropdown.classList.remove("open");
   } else {
     menu.style.display = "block";
+    icon.src = "./img/eva_arrow-up-fill.svg";
+    dropdown.classList.add("open");
   }
 }

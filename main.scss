@@ -19,6 +19,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  text-decoration: none;
 }
 
 button:hover {
@@ -54,6 +55,8 @@ select {
 
     p {
       margin-bottom: 12px;
+      @include fontInter(600);
+      font-size: 16px;
     }
 
     .contact {
@@ -109,6 +112,16 @@ select {
 
     .dropdown-menu li:hover {
       color: #000;
+    }
+
+    .dropdown-container img {
+      transform: rotate(180deg);
+      transition: transform 0.3s ease;
+    }
+
+    .dropdown-container.open img {
+      transform: rotate(0deg);
+      transition: transform 0.3s ease;
     }
 
     .top {
@@ -865,7 +878,7 @@ select {
   }
   .sec3-con-media {
     display: none;
-    max-width: 1210px;
+    width: 95%;
     min-height: 580px;
     margin: 0 auto;
     background: url("./img/фон.png");
@@ -905,7 +918,7 @@ select {
   }
 
   @media (max-width: 500px) {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     .sec3-con {
       border-radius: 0;
       margin: 0;
@@ -916,8 +929,7 @@ select {
     .sec3-con-media {
       padding-top: 35px;
       padding-left: 22px;
-      display: flex;
-      margin-bottom: 40px;
+      display: block;
     }
   }
 }

@@ -31,26 +31,21 @@ select {
   background-color: rgba(0, 0, 0, 0.3333333333);
   z-index: 999;
   transition: 500ms;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
 }
 .nav-media .nav-con-media {
   width: 100%;
   min-height: 65vh;
   padding: 10px;
   background: linear-gradient(to bottom right, #ffffff, rgb(189, 240, 245));
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 16px;
   color: rgb(7, 34, 96);
 }
 .nav-media .nav-con-media p {
   margin-bottom: 12px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 16px;
 }
 .nav-media .nav-con-media .contact {
   width: 100%;
@@ -970,7 +965,8 @@ select {
   font-weight: 600;
   font-style: normal;
   font-size: 40px;
-  margin-bottom: 30px;
+  width: 698px;
+  margin: 0 auto 30px;
 }
 .sec-4 .sec4-con {
   max-width: 1000px;

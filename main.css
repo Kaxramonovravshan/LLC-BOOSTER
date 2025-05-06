@@ -62,6 +62,7 @@ select {
 .nav-media .nav-con-media .contact p {
   margin: 0;
   margin-left: 10px;
+  color: rgb(7, 34, 96);
 }
 .nav-media .nav-con-media .contact .tg-box {
   display: flex;
@@ -188,7 +189,7 @@ select {
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
-  color: rgb(7, 34, 96);
+  color: rgb(7, 34, 96) !important;
   margin-left: auto;
 }
 .sec-1 .sec1-con .nav-con .logo-menu {
@@ -479,6 +480,7 @@ select {
     font-size: 13px;
     margin: 0;
     margin-left: 23px;
+    color: rgb(7, 34, 96) !important;
   }
   .sec-1 .sec1-con .nav-con .logo-menu ul {
     display: none;

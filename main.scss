@@ -71,6 +71,7 @@ select {
       p {
         margin: 0;
         margin-left: 10px;
+        color: rgba(7, 34, 96, 1);
       }
       .tg-box {
         display: flex;
@@ -201,7 +202,7 @@ select {
       .num {
         @include fontInter(600);
         font-size: 14px;
-        color: rgba(7, 34, 96, 1);
+        color: rgba(7, 34, 96, 1) !important;
         margin-left: auto;
       }
 
@@ -483,6 +484,7 @@ select {
           font-size: 13px;
           margin: 0;
           margin-left: 23px;
+          color: rgba(7, 34, 96, 1) !important;
         }
         .logo-menu {
           ul {

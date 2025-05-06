@@ -1438,6 +1438,10 @@ select {
   align-items: flex-start;
   margin: 0 auto;
 }
+.sec-7 .footer img {
+  width: 185px;
+  height: 115px;
+}
 .sec-7 .footer ul {
   list-style: none;
   font-family: "Inter", sans-serif;
@@ -1492,6 +1496,8 @@ select {
   }
   .sec-7 .footer img {
     margin-bottom: 20px;
+    width: 139px;
+    height: 83px;
   }
   .sec-7 .footer ul {
     margin-bottom: 25px;

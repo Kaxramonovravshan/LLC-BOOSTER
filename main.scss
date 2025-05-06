@@ -1405,6 +1405,11 @@ select {
     align-items: flex-start;
     margin: 0 auto;
 
+    img {
+      width: 185px;
+      height: 115px;
+    }
+
     ul {
       list-style: none;
       @include fontInter(400);
@@ -1458,6 +1463,8 @@ select {
 
       img {
         margin-bottom: 20px;
+        width: 139px;
+        height: 83px;
       }
 
       ul {

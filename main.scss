@@ -290,6 +290,7 @@ select {
 
             img {
               width: 7px;
+              height: 5.18px;
             }
           }
         }
@@ -499,9 +500,10 @@ select {
     margin-bottom: 40px;
     .sec1-con {
       .nav-con {
-        padding: 9px;
+        padding: 10px;
+        height: 44px;
         .num {
-          font-size: 13px;
+          font-size: 14px;
           margin: 0;
           margin-left: 23px;
           color: rgba(7, 34, 96, 1) !important;
@@ -512,8 +514,8 @@ select {
           }
 
           .logo-img {
-            width: 43px;
-            height: 26px;
+            width: 44px;
+            height: 27px;
           }
         }
 
@@ -528,6 +530,8 @@ select {
 
           .burger {
             display: block;
+            width: 26px;
+            height: 26px;
           }
         }
       }
@@ -1184,7 +1188,6 @@ select {
         display: flex;
         justify-content: space-between;
         align-items: start;
-        height: 120px;
         margin-left: auto;
         p {
           @include fontInter(400);
@@ -1286,7 +1289,7 @@ select {
         gap: 10px;
         margin-bottom: 10px;
         img {
-          width: 80px;
+          width: 83px;
         }
       }
     }
@@ -1350,7 +1353,8 @@ select {
           p {
             @include fontInter(400);
             font-size: 14px;
-
+            width: 215px;
+            line-height: 20px;
             color: rgba(141, 141, 141, 1);
           }
         }
@@ -1368,6 +1372,8 @@ select {
         .img-box {
           p {
             font-size: 14px;
+            width: 175px;
+            line-height: 20px;
           }
           img {
             width: 108px;
@@ -1384,7 +1390,8 @@ select {
         }
         p {
           font-size: 14px;
-          width: 280px;
+          width: 299px;
+          line-height: 20px;
         }
 
         .img-box {
@@ -1409,6 +1416,13 @@ select {
       }
       .box-4 {
         height: 210px;
+        p {
+          width: 225px;
+          @include fontInter(400);
+          color: rgba(141, 141, 141, 1);
+          font-size: 14px;
+          line-height: 20px;
+        }
         .img-box {
           justify-content: space-between;
           h1 {

@@ -276,6 +276,7 @@ select {
 }
 .sec-1 .sec1-con .nav-con .logo-menu ul .dropdown-toggle img {
   width: 7px;
+  height: 5.18px;
 }
 .sec-1 .sec1-con .nav-con .btn-menu {
   display: flex;
@@ -491,10 +492,11 @@ select {
     margin-bottom: 40px;
   }
   .sec-1 .sec1-con .nav-con {
-    padding: 9px;
+    padding: 10px;
+    height: 44px;
   }
   .sec-1 .sec1-con .nav-con .num {
-    font-size: 13px;
+    font-size: 14px;
     margin: 0;
     margin-left: 23px;
     color: rgb(7, 34, 96) !important;
@@ -503,8 +505,8 @@ select {
     display: none;
   }
   .sec-1 .sec1-con .nav-con .logo-menu .logo-img {
-    width: 43px;
-    height: 26px;
+    width: 44px;
+    height: 27px;
   }
   .sec-1 .sec1-con .nav-con .btn-menu .contact {
     gap: 44px;
@@ -515,6 +517,8 @@ select {
   }
   .sec-1 .sec1-con .nav-con .btn-menu .burger {
     display: block;
+    width: 26px;
+    height: 26px;
   }
   .sec-1 .sec1-con .sec1-card {
     flex-direction: column;
@@ -1204,7 +1208,6 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  height: 120px;
   margin-left: auto;
 }
 .sec-6 .sec6-con .box-1 .img-box p {
@@ -1320,7 +1323,7 @@ select {
   line-height: 30px;
 }
 .sec-6 .sec6-con .box-4 .img-box img {
-  width: 80px;
+  width: 83px;
 }
 @media (max-width: 500px) {
   .sec-6 {
@@ -1386,6 +1389,8 @@ select {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    width: 215px;
+    line-height: 20px;
     color: rgb(141, 141, 141);
   }
   .sec-6 .sec6-con .box-1 {
@@ -1400,6 +1405,8 @@ select {
   }
   .sec-6 .sec6-con .box-1 .img-box p {
     font-size: 14px;
+    width: 175px;
+    line-height: 20px;
   }
   .sec-6 .sec6-con .box-1 .img-box img {
     width: 108px;
@@ -1415,7 +1422,8 @@ select {
   }
   .sec-6 .sec6-con .box-2 p {
     font-size: 14px;
-    width: 280px;
+    width: 299px;
+    line-height: 20px;
   }
   .sec-6 .sec6-con .box-2 .img-box {
     width: 89px;
@@ -1437,6 +1445,16 @@ select {
   }
   .sec-6 .sec6-con .box-4 {
     height: 210px;
+  }
+  .sec-6 .sec6-con .box-4 p {
+    width: 225px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+    line-height: 20px;
   }
   .sec-6 .sec6-con .box-4 .img-box {
     justify-content: space-between;

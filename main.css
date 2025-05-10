@@ -1339,13 +1339,14 @@ select {
     flex-direction: column;
     position: static;
     gap: 10px;
+    padding: 13px;
   }
   .sec-6 .sec6-con .box-1,
   .sec-6 .sec6-con .box-2,
   .sec-6 .sec6-con .box-3,
   .sec-6 .sec6-con .box-4,
   .sec-6 .sec6-con .box-3-media {
-    width: 343px;
+    width: 100%;
     top: 0;
     left: 0;
     position: static;

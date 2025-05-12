@@ -95,6 +95,7 @@ select {
       margin-bottom: 12px;
       img {
         width: 7px;
+        height: 5px;
       }
     }
 
@@ -118,12 +119,16 @@ select {
 
     .dropdown-container img {
       width: 7px;
+      height: 5px;
+      margin-top: 2.5px;
       transform: rotate(180deg);
       transition: transform 0.3s ease;
     }
 
     .dropdown-container.open img {
       width: 7px;
+      height: 5px;
+      margin-top: 2.5px;
       transform: rotate(0deg);
       transition: transform 0.3s ease;
     }

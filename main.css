@@ -46,6 +46,11 @@ select {
 }
 .nav-media .nav-con-media p {
   margin-bottom: 12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
 }
 .nav-media .nav-con-media .contact {
   width: 100%;
@@ -1573,6 +1578,9 @@ select {
   .sec-7 {
     padding: 10px;
   }
+  .sec-7 .hr {
+    margin: 0px auto 20px;
+  }
   .sec-7 .top-footer {
     flex-direction: column;
     gap: 10px;
@@ -1600,7 +1608,7 @@ select {
     height: 83px;
   }
   .sec-7 .footer ul {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     font-size: 14px;
     text-align: center;
   }

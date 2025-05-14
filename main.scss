@@ -55,6 +55,8 @@ select {
 
     p {
       margin-bottom: 12px;
+      @include fontInter(600);
+      font-size: 16px;
     }
 
     .contact {
@@ -1538,6 +1540,10 @@ select {
 
   @media (max-width: 500px) {
     padding: 10px;
+
+    .hr{
+      margin: 0px auto 20px;
+    }
     .top-footer {
       flex-direction: column;
       gap: 10px;
@@ -1568,7 +1574,7 @@ select {
       }
 
       ul {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-size: 14px;
         text-align: center;
       }
